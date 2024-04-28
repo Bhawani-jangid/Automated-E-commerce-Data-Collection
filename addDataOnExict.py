@@ -17,6 +17,7 @@ chrome_driver_path = 'path/of/chromedriver.exe'
 service = Service(chrome_driver_path)
 driver = webdriver.Chrome(service=service)
 
+# If you don't account in this website than first create it also you can change the website.
 # URL of the website you want to scrape
 url = 'https://marryjewelry.in/#/win'
 
