@@ -7,7 +7,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
 
 # Load data from CSV
-data = pd.read_csv('marry_jewelry_data.csv', header=None)
+data = pd.read_csv('fileName', header=None)
 X = data.iloc[:, :-1].values
 y = data.iloc[:, -1].values
 
